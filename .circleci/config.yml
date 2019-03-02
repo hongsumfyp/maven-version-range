@@ -21,4 +21,4 @@ jobs:
       - run: sudo rm -rf /var/lib/apt/lists/*
       - run: sudo apt-get update
       - run: sudo apt install -t jessie-backports  openjdk-8-jre-headless ca-certificates-java
-      - run: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/circle2/scripts/upload)
+      - run: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle/scripts/upload)
